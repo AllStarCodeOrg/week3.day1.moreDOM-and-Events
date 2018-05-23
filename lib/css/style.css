@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+/* font-family: 'Sunflower', sans-serif; */
+@font-face{
+    font-family: Burbank;
+    src:url(../fonts/Burbank.ttf);
+}
+
+body{
+    margin:0;
+    background-color: #2a2a2a;
+    color:#ffffff;
+}
+
+h1,h2{
+    font-family: Burbank;
+    margin:0;
+}
+
+p{
+    font-family: 'Sunflower', sans-serif;
+}
+
+.main_container{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner h1{
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    letter-spacing: .1em;
+}
+
+#banner img{
+    width: 75%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex: 1;
+}
+
+article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 45px 16px;
+    border: solid pink 1px;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    flex: 0 1 auto;
+    overflow: hidden;
+    user-select: none;
+}
+
+article img{
+    width: 150px;
+    align-self: center;
+}
+
+article h2{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+article p{
+    font-size: .9em;
+}
